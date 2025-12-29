@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules","dist"],
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+        "skipLibCheck": true
+  }
+}
