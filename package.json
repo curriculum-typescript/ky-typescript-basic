@@ -1,7 +1,7 @@
 {
   "name": "ky-typescript-basic",
   "version": "1.0.0",
-  "description": "ky-crr-typescript",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,13 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/curriculum-typescript/ky-typescript-basic/issues"
   },
   "homepage": "https://github.com/curriculum-typescript/ky-typescript-basic#readme",
   "devDependencies": {
-    "@types/node": "^20.8.10",
+    "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
   }
 }

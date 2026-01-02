@@ -1,12 +1,25 @@
 {
-  "include": ["src"],
-  "exclude": ["node_modules","dist"],
+  // src 폴더 내의 파일만 컴파일 대상으로 포함
+  "include": [
+    "src"
+  ],
+  // node_modules와 dist 폴더는 컴파일에서 제외
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "compilerOptions": {
+    // ES2020 문법으로 변환
     "target": "es2020",
+    // ESNext 모듈 시스템 사용
     "module": "esnext",
+    // 컴파일 결과물을 dist 폴더에 저장
     "outDir": "dist",
+    // 엄격한 타입 검사 활성화
     "strict": true,
+    // 모든 파일을 모듈로 강제 인식
     "moduleDetection": "force",
-        "skipLibCheck": true
+    // 외부 라이브러리 타입 검사 생략(속도 향상, 오류 무시)
+    "skipLibCheck": true
   }
 }
